@@ -1,0 +1,11 @@
+html,body,div,ul{margin: 0;padding: 0;}
+.bg{width: 400px; height: 400px; margin: 50px auto; background: linear-gradient(to bottom,skyblue 0%,#29b2ea 100%);border-radius:20%;box-shadow: 2px 2px 25px rgba(255,255,255,.5) inset,2px 2px 25px #333 inset,-10px -10px 30px rgba(0, 0, 50, .3) inset,-20px -20px 40px #16a5df inset,10px 25px 40px -10px rgba(0, 0, 0, .5);}
+
+
+.clock{width:320px;height:320px;background:url(clock.jpg);background-size:100%;border-radius:50%;position:relative;top: 37px;left:37px;box-shadow: -10px -10px 10px -10px rgba(255, 255, 255, .3), 2px 2px 12px #333 inset,-2px -2px 8px #787878 inset;}
+
+.clock .hour{width: 4px;height: 60px;background:#555;position: absolute;left: 50%;top:97px;transform-origin:bottom;}
+.clock .min{width: 2px;height: 90px;background: #D40A69;position: absolute;left: 50%;top:65px;transform-origin:bottom;}
+.clock .sec{width: 1px;height: 120px;background: #333;position: absolute;left: 50%;top:40px;transform-origin:bottom center;}
+.clock .sec .black{width: 16px;height: 16px;background: #000000;position: absolute;bottom: -11px;left: 50%;margin-left: -10px;border-radius: 50%;border: 2px solid goldenrod;}
+.clock .sec .red{ width: 4px; height: 20px;border-radius: 50%; background-color: #D40A69;position: absolute;left: 50%;top: 5px;margin-left: -2px;z-index: 5;}
